@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Nunito:wght@700;900&display=swap');
+
+/* font-size */
+:root {
+    --fs-sm: 17px;
+    --fs-md: 18px;
+    --fs-lg: 24px;
+    --fs-xl: 44px;
+    /* color     */
+    --color-main: #1E1E1E;
+    --color-primery: #FACA10;
+    /* font-family */
+    --ff-main: 'Nunito';
+    --ff-primery: 'Lora';
+}
+
+/* font-size */
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+/* color */
+.color-main {
+    color: var(--color-main);
+}
+
+/* font-family */
+.ff-main {
+    font-family: var(--ff-main);
+}
+
+.ff-primery {
+    font-family: var(--ff-primery);
+}

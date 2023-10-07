@@ -1,0 +1,418 @@
+@import url(./root.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.yellow-bg::after {
+    content: "";
+    position: absolute;
+    width: 96%;
+    height: 6px;
+    left: 0;
+    bottom: 13px;
+    z-index: -1;
+    background-color: var(--color-primery);
+}
+
+.lh-31 {
+    line-height: 31px;
+}
+
+.lspaceing-0-36 {
+    letter-spacing: 0.36px
+}
+
+.mw-864 {
+    max-width: 864px;
+}
+
+.ls1-2 {
+    letter-spacing: 1.2px;
+}
+
+.ls-0-85 {
+    letter-spacing: 0.85px;
+}
+
+/* sectio-2 */
+.slick-dots li button:before {
+    font-family: slick;
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 28px !important;
+    left: 0;
+    width: 18px !important;
+    height: 18px !important;
+    content: '' !important;
+    text-align: center;
+    opacity: 0.4 !important;
+    background-color: #FDEA9F !important;
+    border-radius: 50%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    background-color: #FACA10 !important;
+}
+
+.testimonial-image-slider {
+    margin-top: 5px
+}
+
+.slick-list {
+    margin: 0 5px
+}
+
+.sin-testiImage {
+    display: inline-block;
+    margin-bottom: 11px;
+    outline: medium none;
+}
+
+.sin-testiImage img {
+    cursor: pointer;
+    display: inline-block !important;
+    height: 110px;
+    margin-bottom: 30px;
+    margin-top: 36px;
+    overflow: visible !important;
+    opacity: 0.5;
+    width: 110px;
+}
+
+.sin-testiImage.slick-current img {
+    height: 156px;
+    opacity: 1;
+    overflow: visible !important;
+    width: 156px;
+
+}
+
+.slick-slide {
+
+    &.slick-current,
+    &.slick-center {
+        position: relative;
+        overflow: visible !important;
+    }
+}
+
+.sin-testiImage.slick-slide {
+
+    &.slick-center::after {
+        content: url(../image/circle.png);
+        position: absolute;
+        top: 5px;
+        right: 40px;
+        z-index: -1;
+        width: 204px;
+        height: 204px;
+        opacity: 1;
+    }
+}
+
+.sin-testiImage.slick-slide {
+
+    &.slick-center:before {
+        content: url(../image/marker.png);
+        position: absolute;
+        top: 149px;
+        right: 71px;
+        z-index: 1;
+    }
+}
+
+.bordertoimage {
+    border-top: 4px solid red;
+    border-radius: 100%;
+    animation: routate 2s infinite;
+}
+
+@keyframes routate {
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
+
+@media (min-width:334.5px) {
+    .sin-testiImage.slick-slide {
+
+        &.slick-center::after {
+            content: url(../image/circle.png);
+            position: absolute;
+            top: 5px;
+            right: 50px;
+            z-index: -1;
+            width: 204px;
+            height: 204px;
+            opacity: 1;
+        }
+    }
+
+    .sin-testiImage.slick-slide {
+
+        &.slick-center:before {
+            content: url(../image/marker.png);
+            position: absolute;
+            top: 156px;
+            right: 72px;
+            z-index: 1;
+        }
+    }
+}
+
+@media (min-width:369.5px) {
+    .sin-testiImage.slick-slide {
+
+        &.slick-center::after {
+            content: url(../image/circle.png);
+            position: absolute;
+            top: 5px;
+            right: 63px;
+            z-index: -1;
+            width: 204px;
+            height: 204px;
+            opacity: 1;
+        }
+    }
+
+    .sin-testiImage.slick-slide {
+
+        &.slick-center:before {
+            content: url(../image/marker.png);
+            position: absolute;
+            top: 156px;
+            right: 72px;
+            z-index: 1;
+        }
+    }
+}
+
+@media (min-width:400.5px) {
+    .sin-testiImage.slick-slide {
+
+        &.slick-center::after {
+            content: url(../image/circle.png);
+            position: absolute;
+            top: 5px;
+            right: 105px;
+            z-index: -1;
+            width: 204px;
+            height: 204px;
+            opacity: 1;
+        }
+    }
+
+    .sin-testiImage.slick-slide {
+
+        &.slick-center:before {
+            content: url(../image/marker.png);
+            position: absolute;
+            top: 156px;
+            right: 124px;
+            z-index: 1;
+        }
+    }
+}
+
+@media (min-width:510.5px) {
+    .sin-testiImage.slick-slide {
+
+        &.slick-center::after {
+            content: url(../image/circle.png);
+            position: absolute;
+            top: 5px;
+            right: 138px;
+            z-index: -1;
+            width: 204px;
+            height: 204px;
+            opacity: 1;
+        }
+    }
+
+    .sin-testiImage.slick-slide {
+
+        &.slick-center:before {
+            content: url(../image/marker.png);
+            position: absolute;
+            top: 156px;
+            right: 155px;
+            z-index: 1;
+        }
+    }
+}
+
+@media (min-width:575.5px) {
+    .sin-testiImage.slick-slide {
+
+        &.slick-center::after {
+            content: url(../image/circle.png);
+            position: absolute;
+            top: 5px;
+            right: 148px;
+            z-index: -1;
+            width: 204px;
+            height: 204px;
+            opacity: 1;
+        }
+    }
+
+    .sin-testiImage.slick-slide {
+
+        &.slick-center:before {
+            content: url(../image/marker.png);
+            position: absolute;
+            top: 156px;
+            right: 176px;
+            z-index: 1;
+        }
+    }
+}
+
+@media (min-width:767.5px) {
+    .sin-testiImage.slick-slide {
+
+        &.slick-center::after {
+            content: url(../image/circle.png);
+            position: absolute;
+            top: 5px;
+            right: 237px;
+            z-index: -1;
+            width: 204px;
+            height: 204px;
+            opacity: 1;
+        }
+    }
+
+    .sin-testiImage.slick-slide {
+
+        &.slick-center:before {
+            content: url(../image/marker.png);
+            position: absolute;
+            top: 156px;
+            right: 252px;
+            z-index: 1;
+        }
+    }
+}
+
+@media (min-width:992px) {
+    .sin-testiImage.slick-slide {
+
+        &.slick-center::after {
+            content: url(../image/circle.png);
+            position: absolute;
+            top: 5px;
+            right: 50px;
+            z-index: -1;
+            width: 204px;
+            height: 204px;
+            opacity: 1;
+        }
+    }
+
+    .sin-testiImage.slick-slide {
+
+        &.slick-center:before {
+            content: url(../image/marker.png);
+            position: absolute;
+            top: 156px;
+            right: 65px;
+            z-index: 1;
+        }
+    }
+}
+
+@media (min-width:1200px) {
+    .sin-testiImage.slick-slide {
+
+        &.slick-center::after {
+            content: url(../image/circle.png);
+            position: absolute;
+            top: 5px;
+            right: 9px;
+            z-index: -1;
+            width: 204px;
+            height: 204px;
+            opacity: 1;
+        }
+    }
+
+    .sin-testiImage.slick-slide {
+
+        &.slick-center:before {
+            content: url(../image/marker.png);
+            position: absolute;
+            top: 156px;
+            right: 25px;
+            z-index: 1;
+        }
+    }
+}
+
+@media (min-width:1300px) {
+    .sin-testiImage.slick-slide {
+
+        &.slick-center::after {
+            content: url(../image/circle.png);
+            position: absolute;
+            top: 5px;
+            right: 9px;
+            z-index: -1;
+            width: 204px;
+            height: 204px;
+            opacity: 1;
+        }
+    }
+
+    .sin-testiImage.slick-slide {
+
+        &.slick-center:before {
+            content: url(../image/marker.png);
+            position: absolute;
+            top: 156px;
+            right: 25px;
+            z-index: 1;
+        }
+    }
+}
+
+@media (min-width:1400px) {
+    .sin-testiImage.slick-slide {
+
+        &.slick-center::after {
+            content: url(../image/circle.png);
+            position: absolute;
+            top: 8px;
+            right: 28px;
+            z-index: -1;
+            width: 204px;
+            height: 204px;
+            opacity: 1;
+        }
+    }
+
+    .sin-testiImage.slick-slide {
+
+        &.slick-center:before {
+            content: url(../image/marker.png);
+            position: absolute;
+            top: 149px;
+            right: 25px;
+            z-index: 1;
+        }
+    }
+}
