@@ -17,7 +17,7 @@ $('.slider-nav').slick({
     centerMode: true,
     focusOnSelect: true,
     centerPadding: '10px',
-    autoplay:true,
+    autoplay:false,
     // variableWidth:true,
     responsive: [
         {

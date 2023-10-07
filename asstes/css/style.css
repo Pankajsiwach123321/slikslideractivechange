@@ -134,6 +134,12 @@
     }
 }
 
+.slick-slider .slick-list,
+.slick-slider .slick-track {
+    display: flex;
+    align-items: center;
+}
+
 .bordertoimage {
     border-top: 4px solid red;
     border-radius: 100%;
